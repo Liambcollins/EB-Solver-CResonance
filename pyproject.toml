@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eb_cr_afm"
+version = "1.0.0"
+description = "Two-segment Euler-Bernoulli contact-resonance AFM / PFM cantilever solver with the CR2Beam GUI"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Liam Collins", email = "collinslf@ornl.gov" }]
+requires-python = ">=3.9"
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "plotly",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Intended Audience :: Science/Research",
+]
+
+[project.optional-dependencies]
+gui = ["PySide6>=6.5", "pyqtgraph>=0.13"]
+notebooks = ["jupyter", "ipykernel", "nbformat"]
+dev = ["pytest"]
+all = ["PySide6>=6.5", "pyqtgraph>=0.13", "jupyter", "ipykernel", "nbformat", "pytest"]
+
+[project.scripts]
+cr2beam = "eb_cr_afm.gui.app:main"
+
+[project.urls]
+Homepage = "https://github.com/Liambcollins/EB-Solver-CResonance"
+Paper = "https://arxiv.org/abs/2607.27486"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

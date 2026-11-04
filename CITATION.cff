@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "eb_cr_afm: two-segment Euler-Bernoulli contact-resonance AFM/PFM solver and CR2Beam GUI"
+type: software
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/Liambcollins/EB-Solver-CResonance"
+authors:
+  - family-names: Collins
+    given-names: Liam
+    affiliation: "Center for Nanophase Materials Sciences, Oak Ridge National Laboratory"
+preferred-citation:
+  type: article
+  title: "Dynamics of Null and Electrostatic Blind Spots for Quantitative PFM"
+  journal: "ACS Nano"
+  year: 2026
+  url: "https://arxiv.org/abs/2607.27486"
+  identifiers:
+    - type: other
+      value: "arXiv:2607.27486"
+      description: "arXiv preprint"
+  authors:
+    - family-names: Checa
+      given-names: Marti
+    - family-names: Swicegood
+      given-names: Holland
+    - family-names: Millan-Solsona
+      given-names: Ruben
+    - family-names: Bulanadi
+      given-names: Ralph
+    - family-names: Zhao
+      given-names: Jerry
+    - family-names: Lasseter
+      given-names: Jack
+    - family-names: Jesse
+      given-names: Stephen
+    - family-names: Collins
+      given-names: Liam

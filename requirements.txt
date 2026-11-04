@@ -1,0 +1,11 @@
+# Core solver
+numpy
+scipy
+matplotlib
+plotly
+# CR2Beam GUI
+PySide6>=6.5
+pyqtgraph>=0.13
+# Example notebooks and tests
+jupyter
+pytest
