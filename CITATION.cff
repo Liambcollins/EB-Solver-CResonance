@@ -11,11 +11,15 @@ authors:
     affiliation: "Center for Nanophase Materials Sciences, Oak Ridge National Laboratory"
 preferred-citation:
   type: article
-  title: "Dynamics of Null and Electrostatic Blind Spots for Quantitative PFM"
+  title: "Dynamics of Null and Electrostatic Blind Spots for Quantitative Piezoresponse Force Microscopy"
   journal: "ACS Nano"
   year: 2026
-  url: "https://arxiv.org/abs/2607.27486"
+  doi: "10.1021/acsnano.6c14615"
+  url: "https://doi.org/10.1021/acsnano.6c14615"
   identifiers:
+    - type: doi
+      value: "10.1021/acsnano.6c14615"
+      description: "Published article"
     - type: other
       value: "arXiv:2607.27486"
       description: "arXiv preprint"
