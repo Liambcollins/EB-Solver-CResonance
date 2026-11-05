@@ -35,7 +35,8 @@ cr2beam = "eb_cr_afm.gui.app:main"
 
 [project.urls]
 Homepage = "https://github.com/Liambcollins/EB-Solver-CResonance"
-Paper = "https://arxiv.org/abs/2607.27486"
+Paper = "https://doi.org/10.1021/acsnano.6c14615"
+Preprint = "https://arxiv.org/abs/2607.27486"
 
 [tool.setuptools.packages.find]
 where = ["src"]
