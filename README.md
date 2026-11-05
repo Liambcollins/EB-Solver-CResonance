@@ -24,8 +24,9 @@ the short overhang beyond the tip.
 >
 > M. Checa, H. Swicegood, R. Millan-Solsona, R. Bulanadi, J. Zhao, J. Lasseter,
 > S. Jesse and L. Collins, **"Dynamics of Null and Electrostatic Blind Spots for
-> Quantitative PFM"**, *ACS Nano* (2026), accepted.
-> [arXiv:2607.27486](https://arxiv.org/abs/2607.27486)
+> Quantitative Piezoresponse Force Microscopy"**, *ACS Nano* (2026).
+> [doi:10.1021/acsnano.6c14615](https://doi.org/10.1021/acsnano.6c14615)
+> (preprint: [arXiv:2607.27486](https://arxiv.org/abs/2607.27486))
 >
 > A BibTeX entry is in [How to cite](#how-to-cite).
 
@@ -408,16 +409,17 @@ If this software contributes to your work, please cite the paper:
 
 ```bibtex
 @article{Checa2026NullSpots,
-  title   = {Dynamics of Null and Electrostatic Blind Spots for Quantitative {PFM}},
+  title   = {Dynamics of Null and Electrostatic Blind Spots for Quantitative
+             Piezoresponse Force Microscopy},
   author  = {Checa, Marti and Swicegood, Holland and Millan-Solsona, Ruben and
              Bulanadi, Ralph and Zhao, Jerry and Lasseter, Jack and
              Jesse, Stephen and Collins, Liam},
   journal = {ACS Nano},
   year    = {2026},
-  note    = {Accepted},
+  doi     = {10.1021/acsnano.6c14615},
+  url     = {https://doi.org/10.1021/acsnano.6c14615},
   eprint  = {2607.27486},
-  archivePrefix = {arXiv},
-  url     = {https://arxiv.org/abs/2607.27486}
+  archivePrefix = {arXiv}
 }
 ```
 
